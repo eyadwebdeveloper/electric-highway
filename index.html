@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anta&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aquawolf04/font-awesome-pro@5cd1511/css/all.css">
+<!-- Add this with your other CSS links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+
+        <title>TENG</title>
+    </head>
+    <body>
+
+        <section class="dots-container" id="loading">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </section>
+          
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+             
+
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">                      
+                            <div class="nav__link dropdown__button">
+                                Home <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="fa-duotone fa-solid fa-earth-americas"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Statistics</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#statistics" class="dropdown__link">Creators on the platform</a>
+                                            </li>
+                                            <li>
+                                                <a href="#statistics" class="dropdown__link">Flat platform fee</a>
+                                            </li>
+                                            <li>
+                                                <a href="#statistics" class="dropdown__link">Uptime guarantee</a>
+                                            </li>
+                                            <li>
+                                                <a href="#statistics" class="dropdown__link">Paid out to creators</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="fa-duotone fa-regular fa-file"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Bussiness model</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">PDF model</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Get started</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Learn more</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="fa-duotone fa-light fa-screen-users"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Our team</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#team" class="dropdown__link">Eyad Ashraf</a>
+                                            </li>
+                                            <li>
+                                                <a href="#team" class="dropdown__link">Eyad Ashraf</a>
+                                            </li>
+                                            <li>
+                                                <a href="#team" class="dropdown__link">Eyad Ashraf</a>
+                                            </li>
+                                            <li>
+                                                <a href="./contact.html" class="dropdown__link">Get in touch</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="fa-duotone fa-solid fa-code"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Code</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#code" class="dropdown__link">Add to project</a>
+                                            </li>
+                                            <li>
+                                                <a href="#code" class="dropdown__link">View on github</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>                      
+                            <a href="#about" class="nav__link">
+                                About
+                            </a>
+                        </li>
+                        <li>                      
+                            <a href="" class="nav__link">
+                                Features
+                            </a>
+                        </li>
+                        <li>                      
+                            <a href="" class="nav__link">
+                                Papers
+                            </a>
+                        </li>
+                        <li>                      
+                            <a href="dashboard.html" class="nav__link">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li>                      
+                            <a href="contact.html" class="nav__link">
+                                Contact
+                            </a>
+                        </li>
+
+                        <div class="switch-container">
+                            <label class="switch">
+                                <input type="checkbox" id="mode-switch">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="background-shape" aria-hidden="true">
+                <div class="shape"></div>
+            </div>
+            <a href="" class="link">Announcing our new funding <span>Read more</span> <i class="ri-arrow-right-line"></i></a>
+            <h1>Transforming Roads into Smart Energy Generators</h1>
+            <p>We present a sustainable and innovative solution to the global energy crisis by converting mechanical energy from road traffic into electricity using Triboelectric Nanogenerators (TENGs). This advanced yet cost-effective technology captures everyday motion—such as vehicles and pedestrians on asphalt—and transforms it into clean, storable energy.
+
+Every step, every wheel rotation becomes a source of renewable power.
+</p>
+            <div class="links">
+               <a href="" class="button-primary">Get started</a>
+               <a href="" class="button-secondry">Learn more</a>
+            </div>
+            <div class="background-blur" aria-hidden="true">
+                <div class="gradient-shape"></div>
+            </div>
+        </section>
+
+
+        <section class="about" id="about">
+            <div class="content">
+                <h3 class="sub-title">About Us</h3>
+                <h2>We’re changing the <br>way people connect</h2>
+            <p>We are a team of engineers and researchers committed to developing intelligent infrastructure and sustainable energy solutions. Our mission is to harness everyday mechanical motion to produce clean energy, helping cities become more energy-efficient and environmentally responsible. Our work is supported by recent studies published in scientific journals such as Nano Energy and Advanced Materials, and offers a practical model for real-world deployment in smart cities and dense urban environments.</p>
+            </div>
+            <div class="images">
+                <div class="col">
+                    <div class="img"></div>
+                </div>
+                <div class="col">
+                    <div class="img"></div>   
+                    <div class="img"></div>
+                </div>
+                <div class="col">
+                    <div class="img"></div>
+                    <div class="img"></div>
+                    <div class="img" style="background: transparent;"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="statistics" id="statistics">
+            <img src="./assets/images/stats.png" alt="">
+            <div class="statistics-content">
+                <h3 class="sub-title">Our track record</h3>
+                <h2 class="title">Trusted by thousands of creators worldwide</h2>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                <div class="stats-cards">
+                    <div class="row">
+                        <div class="stats-card">
+                            <h4>8,000+</h4>
+                            <p>Creators on the platform</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>3%</h4>
+                            <p>Flat platform fee</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="stats-card">
+                            <h4>99.9%</h4>
+                            <p>Uptime guarantee</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>$70M</h4>
+                            <p>Paid out to creators</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <h3 class="sub-title">Features</h3>
+            <h2 class="title">Why TENG?</h2>
+            <div class="row">
+                <!-- Column One -->
+                <div class="column">
+                  <div class="card">
+                    <div class="icon">
+                      <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Energy from Everyday Motion</h3>
+                    <p>
+                        TENGs (Triboelectric Nanogenerators) capture mechanical energy from routine activities—like walking or driving—converting it into clean, usable electricity. This makes every movement a potential source of sustainable power.
+                    </p>
+                  </div>
+                </div>
+                <!-- Column Two -->
+                <div class="column">
+                  <div class="card">
+                    <div class="icon">
+                      <i class="fa-solid fa-money-bills"></i>
+                    </div>
+                    <h3>Low-Cost & Scalable</h3>
+                    <p>
+                        TENG technology uses inexpensive, flexible materials and doesn’t rely on rare or heavy metals. It can be scaled from small sensors to large energy-harvesting surfaces embedded in roads and buildings.
+                    </p>
+                  </div>
+                </div>
+                <!-- Column Three -->
+                <div class="column">
+                  <div class="card">
+                    <div class="icon">
+                      <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly & Versatile</h3>
+                    <p>
+                        With no harmful emissions or complex installation, TENGs offer a green solution adaptable to urban infrastructure, wearable tech, and even remote environments where traditional power sources are impractical.
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+<section class="pricing">
+    <h3 class="sub-title">Our Pricing</h3>
+    <h2 class="title">Flexible solutions for every need</h2>
+    <p class="title-paragraph">Choose the perfect plan for your energy harvesting needs, whether you're testing prototypes or deploying at scale.</p>
+    <div class="selection">
+        <button id="monthly" class="active">Monthly</button>
+        <button id="annually">Annually (20% off)</button>
+    </div>
+    <div class="pricing-cards">
+        <div class="pricing-card">
+            <h4>Starter</h4>
+            <p>Perfect for small-scale testing and prototypes</p>
+            <div class="price">
+                <span class="amount monthly">$99</span>
+                <span class="amount annually" style="display:none">$79</span>
+                <span class="period">/month</span>
+            </div>
+            <button>Get Started</button>
+            <div class="features">
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> <span>Basic TENG modules (5 units)</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Technical documentation</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Email support</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Community forum access</span></li>
+                    <li><i class="fa-solid fa-xmark"></i> <span class="stroke">Advanced analytics</span></li>
+                    <li><i class="fa-solid fa-xmark"></i> <span class="stroke">Priority support</span></li>
+                    <li><i class="fa-solid fa-xmark"></i> <span class="stroke">Custom configurations</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pricing-card main-card">
+            <div class="popular-badge">Most Popular</div>
+            <h4>Professional</h4>
+            <p>Ideal for medium-scale deployments and research</p>
+            <div class="price">
+                <span class="amount monthly">$299</span>
+                <span class="amount annually" style="display:none">$239</span>
+                <span class="period">/month</span>
+            </div>
+            <button>Get Started</button>
+            <div class="features">
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> <span>Standard TENG modules (20 units)</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Full technical documentation</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Priority email support</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Basic analytics dashboard</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Monthly performance reports</span></li>
+                    <li><i class="fa-solid fa-xmark"></i> <span class="stroke">Custom configurations</span></li>
+                    <li><i class="fa-solid fa-xmark"></i> <span class="stroke">Dedicated account manager</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pricing-card">
+            <h4>Enterprise</h4>
+            <p>For large-scale implementations and smart cities</p>
+            <div class="price">
+                <span class="amount monthly">$899</span>
+                <span class="amount annually" style="display:none">$719</span>
+                <span class="period">/month</span>
+            </div>
+            <button>Contact Sales</button>
+            <div class="features">
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> <span>Premium TENG modules (100+ units)</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Custom technical solutions</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>24/7 priority support</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Advanced analytics platform</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Weekly performance reports</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Dedicated account manager</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span>Custom road integration plans</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+         
+        
+        <section class="model">
+            <div class="model-content">
+                <h3 class="sub-title">Discover we</h3>
+                <h2 class="title">Discover our Bussiness model for farther application</h2>
+                <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.</p>
+                <div class="links">
+                    <a href="" class="button-primary">Get started</a>
+                    <a href="" class="button-secondry">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <img src="./assets/images/phone.png" alt="">
+
+        </section>
+
+        <section class="team" id="team">
+            <h3 class="sub-title">Meet our leadership</h3>
+            <h2 class="title">Our Team</h2>
+            <p class="team-text">We're a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
+        
+            <div class="team-container">
+                <!-- Card -->
+                <div class="team-card">
+                    <div class="card__border">
+                        <div class="card__perfil">
+                            <img src="./assets/images/user.png" alt="card image" class="card__img">
+                        </div>
+                    </div>
+    
+                    <h3 class="card__name">Eyad Ashraf</h3>
+                    <span class="card__profession">CO-Worker</span>
+    
+                    <!-- Card info -->
+                    <div class="info">
+                        <div class="info__icon">
+                            <i class="fa-duotone fa-regular fa-circle-info"></i>
+                        </div>
+    
+                        <div class="info__border">
+                            <div class="info__perfil">
+                                <img src="./assets/images/user.png" alt="card image" class="info__img">
+                            </div>
+                        </div>
+    
+                        <div class="info__data">
+                            <h3 class="info__name">Eyad Ashraf</h3>
+                            <span class="info__profession">Co-Wroker Head</span>
+                            <span class="info__location">Giza - Egypt</span>
+                        </div>
+    
+                        <div class="info__social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                            </a>
+    
+                            <a href="https://dribbble.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </span>
+                            </a>
+    
+                            <a href="https://github.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="team-card">
+                    <div class="card__border">
+                        <div class="card__perfil">
+                            <img src="./assets/images/user2.jpg" alt="card image" class="card__img">
+                        </div>
+                    </div>
+    
+                    <h3 class="card__name">Eyad Ashraf</h3>
+                    <span class="card__profession">CO-Worker</span>
+    
+                    <!-- Card info -->
+                    <div class="info">
+                        <div class="info__icon">
+                            <i class="fa-duotone fa-regular fa-circle-info"></i>
+                        </div>
+    
+                        <div class="info__border">
+                            <div class="info__perfil">
+                                <img src="./assets/images/user2.jpg" alt="card image" class="info__img">
+                            </div>
+                        </div>
+    
+                        <div class="info__data">
+                            <h3 class="info__name">Eyad Ashraf Fouad</h3>
+                            <span class="info__profession">Co-Wroker Head</span>
+                            <span class="info__location">Giza - Egypt</span>
+                        </div>
+    
+                        <div class="info__social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                            </a>
+    
+                            <a href="https://dribbble.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </span>
+                            </a>
+    
+                            <a href="https://github.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="team-card">
+                    <div class="card__border">
+                        <div class="card__perfil">
+                            <img src="./assets/images/user3.jpg" alt="card image" class="card__img">
+                        </div>
+                    </div>
+    
+                    <h3 class="card__name">Eyad Ashraf</h3>
+                    <span class="card__profession">CO-Wroker</span>
+    
+                    <!-- Card info -->
+                    <div class="info">
+                        <div class="info__icon">
+                            <i class="fa-duotone fa-regular fa-circle-info"></i>
+                        </div>
+    
+                        <div class="info__border">
+                            <div class="info__perfil">
+                                <img src="./assets/images/user3.jpg" alt="card image" class="info__img">
+                            </div>
+                        </div>
+    
+                        <div class="info__data">
+                            <h3 class="info__name">Eyad Ashraf</h3>
+                            <span class="info__profession">CO-Wroker</span>
+                            <span class="info__location">Giza - Egypt</span>
+                        </div>
+    
+                        <div class="info__social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                            </a>
+    
+                            <a href="https://dribbble.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </span>
+                            </a>
+    
+                            <a href="https://github.com/" target="_blank" class="info__social-link">
+                                <span class="info__social-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="arduino-section" id="code">
+            <div class="code">
+
+                <div class="code-head">
+                    <a href=""><img src="./assets/images/ino.png" alt="">Arduino_Code.ino</a>
+
+                    <div class="circles">
+                        <div class="circle red"></div>
+                        <div class="circle yellow"></div>
+                        <div class="circle green"></div>
+                    </div>
+                    
+                </div>
+                
+                <code>
+<span class="keyword">#include</span> <span class="string">&lt;WiFi.h&gt;</span>
+<span class="keyword">#include</span> <span class="string">&lt;WebServer.h&gt;</span>
+
+<span class="comment">// Replace with your network credentials</span>
+<span class="keyword">const</span> <span class="keyword">char*</span> <span class="variable">ssid</span> = <span class="string">"YOUR_SSID"</span>; <span class="comment">// Your WiFi SSID</span>
+<span class="keyword">const</span> <span class="keyword">char*</span> <span class="variable">password</span> = <span class="string">"YOUR_PASSWORD"</span>; <span class="comment">// Your WiFi Password</span>
+
+<span class="keyword">WebServer</span> <span class="variable">server</span>(<span class="number">80</span>); <span class="comment">// Create a web server on port 80</span>
+
+<span class="keyword">const</span> <span class="keyword">char*</span> <span class="variable">jsonData</span> = <span class="string">"[{\"id\": 1, \"name\": \"John Doe\", \"email\": \"john@example.com\"},"
+                        "{\"id\": 2, \"name\": \"Jane Smith\", \"email\": \"jane@example.com\"},"
+                        "{\"id\": 3, \"name\": \"Sam Brown\", \"email\": \"sam@example.com\"}]"</span>; <span class="comment">// JSON data to be served</span>
+
+<span class="keyword">void</span> <span class="function">handleRoot</span>() {
+    <span class="variable">server</span>.<span class="function">send</span>(<span class="number">200</span>, <span class="string">"application/json"</span>, <span class="variable">jsonData</span>);
+}
+
+<span class="keyword">void</span> <span class="function">setup</span>() {
+    <span class="comment">// Start the Serial communication</span>
+    <span class="variable">Serial</span>.<span class="function">begin</span>(<span class="number">115200</span>);
+
+    <span class="comment">// Connect to Wi-Fi</span>
+    <span class="variable">WiFi</span>.<span class="function">begin</span>(<span class="variable">ssid</span>, <span class="variable">password</span>);
+    <span class="variable">Serial</span>.<span class="function">print</span>(<span class="string">"Connecting to WiFi"</span>);
+
+    <span class="comment">// Wait for connection</span>
+    <span class="keyword">while</span> (<span class="variable">WiFi</span>.<span class="function">status</span>() != <span class="variable">WL_CONNECTED</span>) {
+        <span class="variable">delay</span>(<span class="number">500</span>);
+        <span class="variable">Serial</span>.<span class="function">print</span>(<span class="string">". "</span>);
+    }
+
+    <span class="variable">Serial</span>.<span class="function">println</span>();
+    <span class="variable">Serial</span>.<span class="function">println</span>(<span class="string">"Connected to WiFi"</span>);
+    <span class="variable">Serial</span>.<span class="function">print</span>(<span class="string">"IP Address: "</span>);
+    <span class="variable">Serial</span>.<span class="function">println</span>(<span class="variable">WiFi</span>.<span class="function">localIP</span>());
+
+    <span class="comment">// Define the route for the root URL</span ```html
+    <span class="variable">server</span>.<span class="function">on</span>(<span class="string">"/"</span>, <span class="function">handleRoot</span>);
+
+    <span class="comment">// Start the server</span>
+    <span class="variable">server</span>.<span class="function">begin</span>();
+    <span class="variable">Serial</span>.<span class="function">println</span>(<span class="string">"HTTP server started"</span>);
+}
+
+<span class="keyword">void</span> <span class="function">loop</span>() {
+    <span class="comment">// Handle client requests</span>
+    <span class="variable">server</span>.<span class="function">handleClient</span>();
+}
+                </code>
+            </div>
+            <div class="arduino-content">
+                <h2 class="title">Add code Snippets to your project.</h2>
+                <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+                <div class="links">
+                    <button class="button-primary">Documntation</button>
+                    <button class="button-secondry">View on Github</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="quotes">
+            <div class="over"></div>
+            <img src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-white.svg" alt="Workcation">
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem provident soluta dolorem ipsa eveniet ipsam dolore, praesentium assumenda neque ducimus maxime repellat autem facere veniam ratione necessitatibus tempora unde deserunt!"</p>
+            <div class="author">
+                <h5>Judith Black</h5>
+                <h6>CEO of Workcation</h6>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h3 class="sub-title">FAQ</h3>
+            <h2 class="title">Frequently asked questions</h2>
+            <div class="accordion">
+     <div class="accordion-item">
+       <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">- What is a Triboelectric Nanogenerator (TENG)?</span><span class="icon" aria-hidden="true"></span></button>
+       <div class="accordion-content">
+         <p>A TENG is an energy harvesting device that converts mechanical energy from motion or vibration into electricity using the triboelectric effect (contact electrification) and electrostatic induction.</p>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">- How does TENG technology work?</span><span class="icon" aria-hidden="true"></span></button>
+       <div class="accordion-content">
+         <p>TENGs generate electricity when two dissimilar materials come into contact and then separate, creating a charge imbalance. This mechanical energy from motion is converted to electrical energy through electrostatic induction.</p>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">- What are the main applications of TENG technology?</span><span class="icon" aria-hidden="true"></span></button>
+       <div class="accordion-content">
+         <p>TENGs can be used in:
+            <ul>
+                <li>Self-powered sensors and IoT devices</li>
+                <li>Wearable electronics</li>
+                <li>Road energy harvesting (smart roads)</li>
+                <li>Ocean wave energy harvesting</li>
+                <li>Biomedical devices</li>
+                <li>Industrial condition monitoring</li>
+            </ul>
+         </p>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">- What advantages does TENG have over traditional energy sources?</span><span class="icon" aria-hidden="true"></span></button>
+       <div class="accordion-content">
+         <p>
+            <ul>
+                <li>Works with low-frequency mechanical energy</li>
+                <li>Lightweight and flexible designs possible</li>
+                <li>Can be made from low-cost materials</li>
+                <li>Environmentally friendly energy harvesting</li>
+                <li>Doesn't require external power sources</li>
+            </ul>
+         </p>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">- How efficient is TENG energy conversion?</span><span class="icon" aria-hidden="true"></span></button>
+       <div class="accordion-content">
+         <p>Modern TENGs can achieve energy conversion efficiencies of 50-85%, depending on materials and design. Efficiency continues to improve with ongoing research.</p>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">- What materials are used in TENG construction?</span><span class="icon" aria-hidden="true"></span></button>
+       <div class="accordion-content">
+         <p>Common materials include:
+            <ul>
+                <li>Polymers (PTFE, PDMS, FEP)</li>
+                <li>Metals (copper, aluminum)</li>
+                <li>Nanocomposites</li>
+                <li>Eco-friendly/biodegradable materials</li>
+            </ul>
+         </p>
+       </div>
+     </div>
+   </div>
+         </section>
+
+
+
+	<section class="testimonials">
+        <h3 class="sub-title">Testimonials</h3>
+        <h2 class="title">What our customers say</h2>
+        <!-- Owl Carousel Slider Starts -->
+	<div class="owl-carousel owl-theme testimonials-container">
+		<!-- Item1 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="testimonals-quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Great job!</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="assets/images/image1.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Doe</span>
+    				<span>Student</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item1 Ends -->
+
+    	<!-- Item2 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="testimonals-quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Great job!</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="assets/images/image2.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Doe</span>
+    				<span>Student</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item2 Ends -->
+
+    	<!-- Item3 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="testimonals-quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Great job!</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="assets/images/image3.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Doe</span>
+    				<span>Student</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item3 Ends -->
+
+    	<!-- Item4 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="testimonals-quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Great job!</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="assets/images/image4.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Doe</span>
+    				<span>Student</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item4 Ends -->
+
+    	<!-- Item5 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="testimonals-quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Great job!</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="assets/images/image5.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Doe</span>
+    				<span>Student</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item5 Ends -->
+
+    	<!-- Item6 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="testimonals-quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Great job!</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="assets/images/image6.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Doe</span>
+    				<span>Student</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item6 Ends -->
+
+    </div>
+    </section>
+        
+        <div class="footer-head">
+            <h3>Get started</h3>
+            <h2>Boost your productivity. Start using our app today.</h2>
+            <p>Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
+            <a href="./dashboard.html">Get started</a>
+        </div>
+
+        <hr class="break">
+
+        <footer>
+            <div class="footer-bottom">
+               <p>© 2024 Arena, Inc. All rights reserved.</p>
+               <div class="social">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+               </div>
+            </div>
+        </footer>
+       
+        <!--=============== MAIN JS ===============-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!--   *****   Owl Carousel js Link  *****  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        
+    </body>
+</html>
